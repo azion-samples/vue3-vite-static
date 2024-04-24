@@ -1,0 +1,58 @@
+{
+  "name": "vue3-vite-static",
+  "bucket": "vue3-vite-static",
+  "preset": "vue",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240424170529",
+  "not-first-run": true,
+  "function": {
+    "id": 20760,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 20395,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1713979257,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1713977998,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 127172,
+      "origin-key": "60979516-f734-4d84-817f-728948a9f6b5",
+      "name": "vue3-vite-static_single"
+    },
+    {
+      "origin-id": 127173,
+      "origin-key": "bd257bbc-1581-46c2-bb63-a72667639bca",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 238424,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 238425,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 238426,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
